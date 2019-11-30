@@ -22,8 +22,8 @@ class ApiRequest {
     const baseHeaders = { 'Content-Type': contentType };
     const headers = createHeader(payload.headers, baseHeaders);
     const url = customUrl.length > 0 ? customUrl : route + path + params;
-    const body = payload.body ? payload.body : {};
-    const requestObj = { url, headers, method, body };
+    const data = payload.body ? payload.body : {};
+    const requestObj = { url, headers, method, data };
 
     try {
       const response = await apiInstance.request(requestObj);
