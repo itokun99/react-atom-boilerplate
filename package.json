@@ -4,7 +4,7 @@
   "description": "A Create React App with Atomic Design Boilerplate Structure",
   "dependencies": {
     "axios": "^0.19.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
